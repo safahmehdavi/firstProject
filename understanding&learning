@@ -1,0 +1,35 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+   int HowManyBooks = 0;
+   string name;
+   int age;
+   bool isThatCorrect;
+   
+   
+   
+   
+   cout<<"Enter Your Name:"<<endl;
+   cin>>name;
+   cout<<"Enter Your Age"<<endl;
+   cin>>age;
+   cout<<"How many Books do you want to rent today"<<endl;
+   cin>>HowManyBooks;
+   
+   
+   
+   
+   if(howManyBooks == 1){
+       cout<<"You are only getting one book today correct?"<< name << endl;
+       cin>>isThatCorrect;
+   } else if(HowManyBooks >= 1){
+       cout<<"You are getting more then one book today correct?"<< name << endl;
+       cin>>isThatCorrect;
+   } else if(HowManyBooks){
+       cout<<"Please Enjoy your stay and if you ask anymore don't hesitate k?"<< name << endl;
+   }
+                                            
+
+}

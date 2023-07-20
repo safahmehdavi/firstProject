@@ -1,0 +1,71 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+
+
+void player(){
+    string name = "";
+    int age = 0;
+}
+
+
+
+
+\
+int main(){
+    int userInput;
+    int score = 0;
+    int correctAnswer = 4;
+    bool doesItEqual = false;
+     player(string &a, int&b);
+    
+    cout<<"lets play a game."<<endl;
+    
+    
+    
+    cout<<"Enter your name."<<endl;
+    cin>>a;
+    cout<<"Enter your age."<<endl;
+    cin>>b;
+    
+    
+    
+    cout<<"Now that I know your name "<<b<<endl;
+    cout<<"Now that I know your age "<<a<<endl;
+    cout<<"Lets be friends"<<endl;
+
+    
+    cout<<"Enter a random number and if you enter the correct number"<<endl;
+    cin>>userInput;
+    
+    
+    
+   for(int i = 0; i < 2; i++){
+        doesItEqual = true;
+        if(userInput == correctAnswer){
+            cout<<"You got the correct Answer"<<endl;
+            score++;
+            cout<<"heres your score "<<score <<endl;
+            break;
+        } else {
+            cout<<"You Need to try again."<<endl;
+            break;
+        }   
+        
+   }
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+}

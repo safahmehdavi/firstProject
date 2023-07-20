@@ -1,0 +1,26 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+
+
+int main(){
+    ofstream File;
+    File.open("thix.txt");
+    cout<<"well hi"<<endl;
+    File.close;
+    return 0;    
+    
+    
+    ofstream NewFile;
+    NewFile.open("text.text");
+    cout<<"Kenobi"<<endl;
+    NewFile.close;
+    return 0;
+    
+    ofstream thisFile;
+    thisFile.open("text.txt.");
+    cout<<"Hello There"<<endl;
+    thisFile.close;
+    return 0;
+}

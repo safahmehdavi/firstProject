@@ -1,0 +1,33 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+
+struct Person{
+    string name;
+    int age;
+    string DOB;
+    const int SIZE = 6;
+    string favoriteHobbies[SIZE];
+};
+
+
+int main(){
+    Person person;
+    person.age = 21;
+    person.name = "Safah";
+    person.DOB = "06/11/2002";
+    
+    cout<<person.age<<endl;
+    cout<<person.name<<endl;
+    cout<<person.DOB<<endl;
+    
+
+    person.favoriteHobbies[0] = "Programming";
+    person.favoriteHobbies[1] = "Video Games;
+    person.favoriteHobbies[2] = "Anime";
+    person.favoriteHobbies[3] = "Math";
+    person.favoriteHobbies[4] = "Chess";
+    person.favoriteHobbies[5] = "Techonolgy";
+}

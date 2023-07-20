@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string
+class Person{
+private:
+    string name;
+    int age;
+    string monthsName;
+    int dateOfBirth;
+    
+    
+public:
+    string favoriteHobby;
+    string favoriteTeam;
+    
+
+    
+    
+}
